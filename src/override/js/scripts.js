@@ -1,6 +1,6 @@
 var totalCount = 8;
 var num = Math.ceil( Math.random() * totalCount );
-document.body.background = 'images/background-'+num+'.jpg';
+document.body.background = 'src/override/images/background-'+num+'.jpg';
 
 
 var dayOfWeek = new Array();
