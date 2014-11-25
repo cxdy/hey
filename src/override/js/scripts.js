@@ -74,3 +74,4 @@ var temp = data['current_observation']['temp_f'];
 //setting the spans to the correct parameters
 $('#location').html(location);
 $('#temp').html(temp);
+}
