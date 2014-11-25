@@ -1,8 +1,9 @@
+// Background
 var totalCount = 7;
 var num = Math.ceil( Math.random() * totalCount );
 document.body.background = 'src/override/images/background-'+num+'.jpg';
 
-
+// Days
 var dayOfWeek = new Array();
 dayOfWeek[0] = "Today is Sunday";
 dayOfWeek[1] = "Today is Monday";
@@ -16,6 +17,7 @@ var myDate = new Date();
 var weekDay = dayOfWeek[myDate.getDay()];
 document.getElementById("day").innerHTML = weekDay;
 
+// Time
 function startTime() {
     var date = new Date();
     var hours = date.getHours();
