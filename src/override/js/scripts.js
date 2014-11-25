@@ -40,3 +40,37 @@ function checkTime(i) {
 }
 
 window.onload = startTime;
+
+// Weather
+var Geo={};
+if (navigator.geolocation) {
+navigator.geolocation.getCurrentPosition(success,error);
+}
+else {
+alert('Geolocation is not supported! You can continue to use the site without weather.');
+}
+
+function error() {
+alert("That's weird! We couldn't find you!");
+}
+
+function success(position) {
+      Geo.lat = position.coords.latitude;
+      Geo.lng = position.coords.longitude;
+var key = ‘a26f529a85202561’;
+var Weather = "http://api.wunderground.com/api/”+ key +”/forecast/geolookup/conditions/q/" + Geo.lat + "," + Geo.lng + ".json";
+
+$.ajax({
+url : Weather,
+dataType : "jsonp",
+success : function(data) {
+// get all the information
+}
+});
+
+var location =data['location']['city'];
+var temp = data['current_observation']['temp_f'];
+
+//setting the spans to the correct parameters
+$('#location').html(location);
+$('#temp').html(temp);
