@@ -10,12 +10,15 @@ dayOfWeek[1] = "Today is Monday";
 dayOfWeek[2] = "Today is Tuesday";
 dayOfWeek[3] = "Today is Wednesday";
 dayOfWeek[4] = "Today is Thursday";
-dayOfWeek[5] = "Today is Friday";
+dayOfWeek[5] = "Happy Friday!";
 dayOfWeek[6] = "Today is Saturday";
 var myDate = new Date();
 
 var weekDay = dayOfWeek[myDate.getDay()];
 document.getElementById("day").innerHTML = weekDay;
+
+// Facts
+
 
 // Time
 function startTime() {
@@ -40,3 +43,5 @@ function checkTime(i) {
 }
 
 window.onload = startTime;
+
+
