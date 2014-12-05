@@ -23,7 +23,7 @@
     		woeid: '',
     		unit: 'f',
     	success: function(weather) {
-      		html = '<a href="#" title="'+weather.city+', '+weather.region+'">  '+weather.temp+'&deg;'+weather.units.temp+'</a>'; 
+      		html = '<a href="https://weather.yahoo.com/united-states/pennsylvania/east-stroudsburg-12765128/" title="'+weather.city+', '+weather.region+'">  '+weather.temp+'&deg;'+weather.units.temp+'</a>'; 
       	$("#weather").html(html);
     	},
     	error: function(error) {
