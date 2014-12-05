@@ -17,8 +17,6 @@ var myDate = new Date();
 var weekDay = dayOfWeek[myDate.getDay()];
 document.getElementById("day").innerHTML = weekDay;
 
-// Facts
-
 
 // Time
 function startTime() {
