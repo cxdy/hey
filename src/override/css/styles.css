@@ -94,11 +94,9 @@ a {
 
 .snow {
     display: block;
-    height: 25px;
-    left: -5px;
+    left: -20px;
     padding: 0px 5px;
     position: absolute;
-    top: -16px;
-    width: 100%;
+    top: -50px
     background: url('https://devbest.com/styles/christmas/shelley_snow_l.png') no-repeat;
 }
