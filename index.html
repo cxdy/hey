@@ -19,11 +19,11 @@
     <script type="text/javascript">
 	$(document).ready(function() {
   		$.simpleWeather({
-    		location: '18301',
+    		location: '18321',
     		woeid: '',
     		unit: 'f',
     	success: function(weather) {
-      		html = '<a href="https://weather.yahoo.com/united-states/pennsylvania/east-stroudsburg-12765128/" title="'+weather.city+', '+weather.region+'">  '+weather.temp+'&deg;'+weather.units.temp+'</a>'; 
+      		html = '<a href="https://weather.yahoo.com/united-states/pennsylvania/bartonsville-12765130/" title="'+weather.city+', '+weather.region+'">  '+weather.temp+'&deg;'+weather.units.temp+'</a>'; 
       	$("#weather").html(html);
     	},
     	error: function(error) {
