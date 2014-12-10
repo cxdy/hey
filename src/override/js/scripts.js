@@ -3,9 +3,9 @@ var totalCount = 7;
 var num = Math.ceil( Math.random() * totalCount );
 document.body.background = 'src/override/images/background-'+num+'.jpg';
 
-// Date
+/* Date
 var moment = moment().format('MMMM Do YYYY');
-document.getElementById("day").innerHTML = moment;
+document.getElementById("day").innerHTML = moment; */
 
 // Days
 /* var dayOfWeek = new Array();
