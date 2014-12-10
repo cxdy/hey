@@ -5,8 +5,7 @@ document.body.background = 'src/override/images/background-'+num+'.jpg';
 
 // Date
 var moment = moment().format('MMMM Do YYYY');
-var weekDay = moment[mDate.getDay()];
-document.getElementById("day").innerHTML = weekDay;
+document.getElementById("day").innerHTML = moment;
 
 // Days
 /* var dayOfWeek = new Array();
