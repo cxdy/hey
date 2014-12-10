@@ -91,3 +91,16 @@ a {
         a:hover {
             border-color: transparent;
         }
+
+.snow {
+    display: block;
+    height: 25px;
+    left: -5px;
+    padding: 0px 5px;
+    position: absolute;
+    top: -16px;
+    width: 100%;
+    background: url('https://devbest.com/styles/christmas/shelley_snow_l.png') no-repeat;
+    background: url('https://devbest.com/styles/christmas/shelley_snow_l.png') no-repeat 0% 0%, url('https://devbest.com/styles/christmas/shelley_snow_c.png') no-repeat 50% 0%, url('https://devbest.com/styles/christmas/shelley_snow_r.png') no-repeat 100% 0%;
+    _background: url('https://devbest.com/styles/christmas/shelley_snow_l.png') no-repeat;
+}
