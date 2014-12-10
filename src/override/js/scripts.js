@@ -3,6 +3,11 @@ var totalCount = 7;
 var num = Math.ceil( Math.random() * totalCount );
 document.body.background = 'src/override/images/background-'+num+'.jpg';
 
+// Date
+var date = moment().format('MMMM Do YYYY');
+var weekDay = date[mDate.getDay()];
+document.getElementById("day").innerHTML = weekDay;
+
 // Days
 /* var dayOfWeek = new Array();
 dayOfWeek[0] = "Today is Sunday";
