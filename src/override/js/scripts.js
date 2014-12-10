@@ -4,8 +4,8 @@ var num = Math.ceil( Math.random() * totalCount );
 document.body.background = 'src/override/images/background-'+num+'.jpg';
 
 // Date
-var date = moment().format('MMMM Do YYYY');
-var weekDay = date[mDate.getDay()];
+var moment = moment().format('MMMM Do YYYY');
+var weekDay = moment[mDate.getDay()];
 document.getElementById("day").innerHTML = weekDay;
 
 // Days
