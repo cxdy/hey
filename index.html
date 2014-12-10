@@ -19,7 +19,7 @@
     <script type="text/javascript">
 	$(document).ready(function() {
   		$.simpleWeather({
-    		location: '18321',
+    		location: 'Buffalo, NY',
     		woeid: '',
     		unit: 'f',
     	success: function(weather) {
@@ -32,6 +32,20 @@
   	});
 });
 	</script>
+
+<script type="text/javascript">
+	//Snow
+   if(weather.current.indexOf("Snow")>=0){
+	var theOtherScript = '/src/override/js/snow.js';
+	var el = document.createElement('script');
+	el.async = false;
+	el.src = theOtherScript;
+	el.type = 'text/javascript';
+	(document.getElementsByTagName('HEAD')[0]||document.body).appendChild(el);
+   } else {
+   	console.log("No snow!");
+   }
+</script>
 
     <script src="src/override/js/scripts.js"></script>
     <script src="src/override/js/weather.js"></script>
