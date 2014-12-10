@@ -9,7 +9,7 @@ var weekDay = date[mDate.getDay()];
 document.getElementById("day").innerHTML = weekDay;
 
 // Days
-var dayOfWeek = new Array();
+/* var dayOfWeek = new Array();
 dayOfWeek[0] = "Today is Sunday";
 dayOfWeek[1] = "Today is Monday";
 dayOfWeek[2] = "Today is Tuesday";
@@ -20,7 +20,7 @@ dayOfWeek[6] = "Today is Saturday";
 var myDate = new Date();
 
 var weekDay = dayOfWeek[myDate.getDay()];
-document.getElementById("day").innerHTML = weekDay;
+document.getElementById("day").innerHTML = weekDay; */
 
 
 // Time
