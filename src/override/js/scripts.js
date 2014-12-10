@@ -3,12 +3,9 @@ var totalCount = 7;
 var num = Math.ceil( Math.random() * totalCount );
 document.body.background = 'src/override/images/background-'+num+'.jpg';
 
-/* Date
-var moment = moment().format('MMMM Do YYYY');
-document.getElementById("day").innerHTML = moment; */
 
 // Days
-/* var dayOfWeek = new Array();
+ var dayOfWeek = new Array();
 dayOfWeek[0] = "Today is Sunday";
 dayOfWeek[1] = "Today is Monday";
 dayOfWeek[2] = "Today is Tuesday";
@@ -19,7 +16,7 @@ dayOfWeek[6] = "Today is Saturday";
 var myDate = new Date();
 
 var weekDay = dayOfWeek[myDate.getDay()];
-document.getElementById("day").innerHTML = weekDay; */
+document.getElementById("day").innerHTML = weekDay; 
 
 
 // Time
