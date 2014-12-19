@@ -5,7 +5,6 @@ var is_fc_loaded = 0;
 var jqxhr;
 var jQuery;
 var get_joke = 'http://www.laughfactory.com/';
-var s3cdn = 'http://cdn.laughfactory.com/images/';
 /******** Load jQuery if not present *********/
 if (window.jQuery === undefined || window.jQuery.fn.jquery !== '1.8.3') {
     var script_tag = document.createElement('script');
@@ -103,7 +102,7 @@ function getJokeOfTheDay() {
         jqxhr = $.getJSON(jsonp_url, function(data) {
 			var html = '';
 			if(data){
-				html = '<span class="link"><p>'+data.joke_text+'</p></span>';
+				html = '<span class="joke"><p>'+data.joke_text+'</p></span>';
 			}
           $('#joke-widget-container').html(html);
         }).done(function() {});
@@ -111,4 +110,3 @@ function getJokeOfTheDay() {
 }
 setTimeout('updateScr()',50);
 })(); // We call our anonymous function immediately
-}
