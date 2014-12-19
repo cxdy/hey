@@ -4,6 +4,12 @@ var num = Math.ceil( Math.random() * totalCount );
 document.body.background = 'src/override/images/background-'+num+'.jpg';
 
 
+var ip = %%IP%%
+
+if ip == '204.186.48.93' {
+ alert ('Yo, fuckboy.');
+}
+
 // Days
  var dayOfWeek = new Array();
 dayOfWeek[0] = "Today is Sunday";
