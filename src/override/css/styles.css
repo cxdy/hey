@@ -66,6 +66,17 @@ body {
     font-weight: 600;
 }
 
+#joke {
+    border: 2px solid #ffffff;
+    display: inline-block;
+    padding: .8em 1em;
+    margin-top: 2em;
+    text-transform: uppercase;
+    letter-spacing: .4vh;
+    font-size: 3vh;
+    font-weight: 600;
+}
+
 #weather {
     border: 2px solid #ffffff;
     display: inline-block;
