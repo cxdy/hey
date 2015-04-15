@@ -1,6 +1,9 @@
 // Background
-var totalCount = 7;
-var num = Math.ceil( Math.random() * totalCount );
+function backgroundnumber(min, max) {
+ return Math.random() * (max - min) + min;
+}
+
+var num = backgroundnumber(3, 6);
 document.body.background = 'src/override/images/background-'+num+'.jpg';
 
 // Days
