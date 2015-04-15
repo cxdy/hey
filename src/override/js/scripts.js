@@ -1,6 +1,6 @@
 // Background
 function backgroundnumber(min, max) {
- return Math.random() * (max - min) + min;
+  return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
 var num = backgroundnumber(3, 6);
