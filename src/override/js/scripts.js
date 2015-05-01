@@ -17,7 +17,7 @@ backgrounds =
   ]
 
 var background = backgrounds[Math.floor(Math.random()*backgrounds.length)]
-document.body.background = '+background+';
+document.body.background = background
 
 // Background
 // function backgroundnumber(min, max) {
