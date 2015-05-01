@@ -1,6 +1,5 @@
 @font-face {
-  font-family: 'Lato';
-  src: url('../fonts/lato.ttf')  format('truetype');
+  font-family: 'Roboto', sans-serif;
 }
 
 * {
