@@ -1,3 +1,5 @@
+// If you can see this code, I'm so sorry.
+
 backgrounds =
 [
   "https://cloud.githubusercontent.com/assets/6620597/7430193/016088ee-efdd-11e4-9e7b-c09d594bec25.jpg",
@@ -18,14 +20,6 @@ backgrounds =
 
 var background = backgrounds[Math.floor(Math.random()*backgrounds.length)]
 document.body.background = background
-
-// Background
-// function backgroundnumber(min, max) {
-//  return Math.floor(Math.random() * (max - min + 1) + min);
-//}
-
-//var num = backgroundnumber(3, 6);
-//document.body.background = 'src/override/images/background-'+num+'.jpg';
 
 // Days
  var dayOfWeek = new Array();
@@ -65,5 +59,3 @@ function checkTime(i) {
 }
 
 window.onload = startTime;
-
-
