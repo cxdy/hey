@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: "Lato";
+    font-family: 'Roboto', sans-serif;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -101,12 +101,3 @@ a {
         a:hover {
             border-color: transparent;
         }
-
-.snow {
-    display: block;
-    left: -20px;
-    padding: 0px 5px;
-    position: absolute;
-    top: -50px
-    background: url('https://devbest.com/styles/christmas/shelley_snow_l.png') no-repeat;
-}
