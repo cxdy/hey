@@ -2,6 +2,6 @@
 chrome extension, new tab. 
 
 
-branch for school. used mostly as a start page.
+dis branch is for school
 
-switch to [master](https://github.com/cxdy/hey/tree/master) for regular code (hardly updated)
+switch to [master](https://github.com/cxdy/hey/tree/master) for basic/extension code (hardly updated)
