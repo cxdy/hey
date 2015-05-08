@@ -118,7 +118,7 @@
 				
 				//  make a shutter descend unto the screen
 				shutter: function() {
-					var shutter = body.append('<div id="shutter" style="background-color: url('http://img3.wikia.nocookie.net/__cb20130914124100/glee/images/e/e2/Funny-gifs-dancing-alone1.gif');"><h1 class="time" style="color: white;">christian marasco is a loser</h1></div>').children('#shutter');
+					var shutter = body.append('<div id="shutter"><h1 class="time" style="color: white;">christian marasco is a loser<img src="http://img3.wikia.nocookie.net/__cb20130914124100/glee/images/e/e2/Funny-gifs-dancing-alone1.gif"/></h1></div>').children('#shutter');
 					
 					shutter.css({
 						position: 'fixed',
