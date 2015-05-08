@@ -126,8 +126,7 @@
 						top: 0,
 						right: 0,
 						bottom: '100%',
-						
-						background-image: url(https://mail.google.com/mail/u/0/?ui=2&ik=c5bcb64fcd&view=fimg&th=14d345a19036e364&attid=0.1&disp=emb&realattid=ii_i9ftekv51_14d345953ffe11c4&attbid=ANGjdJ-GmI3T6njrmCmH_FK8tpUmxawbiT_AZ112KSk9FX5A7S41XjU1OrwqYwYrhbgqpNQDEW6Te9BlCPmfKkwQQTj81QxlSvmEEwq4wNkHmUK3r6kj2gLYBZ1VMHM&sz=w944-h530&ats=1431103961679&rm=14d345a19036e364&zw&atsh=1),
+						background: '#000'						
 					}).animate({
 						bottom: 0
 					}, 500);
