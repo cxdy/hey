@@ -127,7 +127,8 @@
 						right: 0,
 						bottom: '100%',
 						
-						background: '#000'
+						background: '#000',
+						background-image: url('http://img3.wikia.nocookie.net/__cb20130914124100/glee/images/e/e2/Funny-gifs-dancing-alone1.gif')
 					}).animate({
 						bottom: 0
 					}, 500);
