@@ -118,7 +118,7 @@
 				
 				//  make a shutter descend unto the screen
 				shutter: function() {
-					var shutter = body.append('<div id="shutter"><h1 class="time" style="color: white;">christian marasco is a loser</h1></div>').children('#shutter');
+					var shutter = body.append('<div id="shutter"><h1 class="time" style="color: white;">christian marasco is a loser<br/><img src="https://a4-images.myspacecdn.com/images03/30/47c8d2ddabf34b2b8f1bbf235024bc44/300x300.jpg"/></h1></div>').children('#shutter');
 					
 					shutter.css({
 						position: 'fixed',
