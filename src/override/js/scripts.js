@@ -22,7 +22,7 @@ var background = backgrounds[Math.floor(Math.random()*backgrounds.length)]
 document.body.background = background
 
 // Days
- var dayOfWeek = new Array();
+/* var dayOfWeek = new Array();
 dayOfWeek[0] = "Today is Sunday";
 dayOfWeek[1] = "Today is Monday";
 dayOfWeek[2] = "Today is Tuesday";
@@ -33,7 +33,19 @@ dayOfWeek[6] = "Today is Saturday";
 var myDate = new Date();
 
 var weekDay = dayOfWeek[myDate.getDay()];
-document.getElementById("day").innerHTML = weekDay; 
+document.getElementById("day").innerHTML = weekDay; */
+
+document.getElementById("day").innerHTML = formatAMPM();
+
+function formatAMPM() {
+var d = new Date(),
+    minutes = d.getMinutes().toString().length == 1 ? '0'+d.getMinutes() : d.getMinutes(),
+    hours = d.getHours().toString().length == 1 ? '0'+d.getHours() : d.getHours(),
+    ampm = d.getHours() >= 12 ? 'pm' : 'am',
+    months = ['January','February','March','April','May','June','July','August','September','October','November','December'],
+    days = ['Sun','Mon','Tuesday','Wed','Thu','Fri','Sat'];
+return months[d.getMonth()]+' '+d.getDate()+', '+d.getFullYear();
+}
 
 
 // Time
