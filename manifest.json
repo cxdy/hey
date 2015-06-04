@@ -1,0 +1,16 @@
+{
+  "name": "Hey",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "",
+  "homepage_url": "http://github.com/cxdy/hey",
+  "icons": {
+    "16": "src/override/icons/icon16.png",
+    "48": "src/override/icons/icon48.png",
+    "128": "src/override/icons/icon128.png"
+  },
+  "default_locale": "en",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
