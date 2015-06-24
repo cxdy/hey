@@ -1,0 +1,18 @@
+<script type='text/javascript'>
+	function getReply(data) {
+		var allMessages = data.feed.entry[0].gsx$allmessages.$t;
+		var unreadMessages = data.feed.entry[0].gsx$unreadmessages.$t;
+		var lastMsgReceived = data.feed.entry[0].gsx$lastmsgreceived.$t;
+		
+		document.getElementById("textualCounter").innerHTML="<b>Total: "+allMessages+"</b><br/>Unread: "+unreadMessages+"<br/>Last email<br/>"+lastMsgReceived;		
+	}
+</script> 
+
+<table style="margin-left:auto;margin-right:auto;">
+	<tr>
+		<td>
+			<div style="border:1px solid #c0c0c0; padding:5px;" id="textualCounter"></div>
+		</td>
+	</tr>
+</table>
+<script type="text/javascript" src="https://spreadsheets.google.com/feeds/list/0AlecLd2XqOqEdGRudnFnNDVKU3FRSFFmUXo0Y0Q1VkE/od6/public/values?alt=json-in-script&callback=getReply"></script>
