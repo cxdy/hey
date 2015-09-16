@@ -59,5 +59,12 @@
 	 ga('send', 'pageview');
 
     </script>
+    <script>
+    	$.get("http://ipinfo.io", function (response) {
+    var zip = response.postal; 
+    console.log(zip);
+}, "jsonp");
+
+    </script>
 </body>
 </html>
