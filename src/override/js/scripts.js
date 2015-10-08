@@ -19,6 +19,7 @@ backgrounds =
   ]
 
 var background = backgrounds[Math.floor(Math.random()*backgrounds.length)]
+console.log(background);
 document.body.background = background
 
 // Days
