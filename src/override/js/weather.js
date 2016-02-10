@@ -13,7 +13,7 @@
   $.extend({
     simpleWeather: function(options){
       options = $.extend({
-        location: '',
+        location: '18321',
         woeid: '',
         unit: 'f',
         success: function(weather){},
