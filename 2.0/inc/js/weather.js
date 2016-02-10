@@ -1,19 +1,5 @@
 // Docs at http://simpleweatherjs.com
 
-/* Does your browser support geolocation? */
-if ("geolocation" in navigator) {
-  $('.js-geolocation').show(); 
-} else {
-  $('.js-geolocation').hide();
-}
-
-/* Where in the world are you? */
-$('.js-geolocation').on('click', function() {
-  navigator.geolocation.getCurrentPosition(function(position) {
-    loadWeather(position.coords.latitude+','+position.coords.longitude); //load weather using your lat/lng coordinates
-  });
-});
-
 $(document).ready(function() {
   loadWeather('18321',''); //@params location, woeid
 });
